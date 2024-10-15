@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 67px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+
+}
+
+
+/* box1 */
+.nav-logo {
+    height: 70px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    background-image: url(flipkart_logo.png);
+    background-size: cover;
+    height: 70px;
+    width: 150px;
+    
+}
+
+/* box2 */
+.nav-search {
+    height: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 19px;
+    background-color: #e2e7e6;
+    
+}
+
+
+.icon {
+    width: 44px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.534);
+    background-color: #e2e7e6;
+
+
+}
+/* box3 */
+#account {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    
+}
+
+
+.per-logo {
+    font-size: 20px;
+}
+.aero {
+    font-size: 10px;
+}
+
+
+
+/* box4 */
+.cart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+
+}
+
+.carts {
+    font-size: 20px;
+}
+
+/* box5 */
+
+.seller {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 155px;
+}
+
+.house {
+    font-size: 20px;
+}
+
+/* box6 */
+
+.point {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+  
+}
+.points :hover {
+    background-color: #e2e7e6;
+    
+}
+
+/* main */
+
+.main-shop {
+    background-color: #e2e7e6;
+    width: 100%;
+    height: 3500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.shop {
+    background-color: #ffffff;
+    height: 130px;
+    width: 98%;
+    position: absolute;
+    top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box {
+    height: 130px;
+    padding: 16px;
+    border: 2px black;
+    
+}
+.img {
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.hero-sec {
+    height: 270px;
+    width: 98%;
+    background-color: #ffffff;
+    position: relative;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-img {
+    background-size: cover;
+    height: 270px;
+    width: 100%;
+}
+
+/* mobile shop */
+
+.mobile-shop {
+    background-color: #ffffff;
+    height: 360px;
+    width: 98%;
+    position: absolute;
+    top: 505px;
+ 
+}
+
+.lomdi {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.moto {
+    color: rgba(0, 0, 0, 0.700);
+    margin-left: 50px;
+}
+
+.fox {
+    height: 260px;
+    width: 15%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.200);
+
+    
+}
+
+.fox-img {
+    height: 220px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.chotu {
+    margin-left: 50px;
+}
+
+/* adds */
+.adds {
+    background-color: #ffffff;
+    height: 235px;
+    width: 98%;
+    position: absolute;
+    top: 880px;
+}
+.prachar {
+    height: 235px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tiger {
+    height: 235px;
+    width: 33%;
+    background-size: contain;
+    
+  
+    
+}
+
+/* shoes-shop */
+.shoes-shop {
+    background-color: #ffffff;
+    height: 360px;
+    width: 98%;
+    position: absolute;
+    top: 1140px;
+ 
+}
+
+.juta {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.titlee {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.golu {
+    color: rgba(0, 0, 0, 0.700);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.chappal {
+    height: 260px;
+    width: 15%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.200);
+
+    
+}
+
+.chappal-img {
+    height: 200px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.molu {
+    margin-left: 50px;
+    
+}
+
+.sub {
+    background-color: #ffffff;
+    height: 235px;
+    width: 98%;
+    position: absolute;
+    top: 1520px;
+}
+
+.subs {
+    background-color: #ffffff;
+    height: 235px;
+    width: 98%;
+    position: absolute;
+    top: 1775px;
+}
+
+.subss {
+    background-color: #ffffff;
+    height: 235px;
+    width: 98%;
+    position: absolute;
+    top: 2030px;
+}
+
+.subsss {
+    background-color: #ffffff;
+    height: 235px;
+    width: 98%;
+    position: absolute;
+    top: 2285px;
+}
+
+.suit-shop {
+    background-color: #ffffff;
+    height: 360px;
+    width: 98%;
+    position: absolute;
+    top: 2535px;
+ 
+}
+
